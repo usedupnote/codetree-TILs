@@ -74,7 +74,7 @@ public class Main {
 				dx = get[0] + dirX[d];
 				dy = get[1] + dirY[d];
 				
-				if (0 <= dx && 0<=dy && dy<C && !v[map[dx][dy]]) {
+				if (0 <= dx && dx < R+3 && 0<=dy && dy<C && !v[map[dx][dy]]) {
 					v[map[dx][dy]] = true;
 					q.offer(new int[] {dx, dy});
 				}
