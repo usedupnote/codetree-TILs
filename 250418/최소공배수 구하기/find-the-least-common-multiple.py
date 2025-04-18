@@ -3,7 +3,7 @@ cnt = n
 
 while True :
     if cnt % n == 0 and cnt % m == 0:
-        print cnt
+        print(cnt)
         break
     
     cnt+=1
